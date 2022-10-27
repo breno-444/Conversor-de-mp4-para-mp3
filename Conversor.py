@@ -1,15 +1,8 @@
-'''
-  bibliotecas para serem instaladas
-  pip install moviepy
-  pip install glob
-'''
 import os
 from moviepy.editor import *
 import glob
 
 lista_mp4 = glob.glob('C:\Videos\*.mp4')
-#print(lista_mp4)
-
 for video in lista_mp4:
   print('Lendo arquivo mp4')
   print('-'*20)
